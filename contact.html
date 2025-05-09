@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="contact-page">
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Kenny Tran</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="contact-header">
+        <div class="container">
+            <h1>Contact</h1>
+        </div>
+    </div>
+
+    <div class="contact-content">
+        <div class="container">
+            <div class="contact-text">
+                <h2>Get in Touch</h2>
+                <p>Have a question or want to work together? Feel free to reach out using any of the methods below.</p>
+
+                <div class="contact-grid">
+                    <div class="contact-form-container">
+                        <h3>Send a Message</h3>
+                        <form id="contactForm" class="contact-form" action="mailto:kennytran327@csu.fullerton.edu" method="POST" enctype="text/plain">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <a href="#" class="send-btn" style="margin-top: 20px;" onclick="document.getElementById('contactForm').submit(); return false;">Send Message</a>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info-container">
+                        <div class="contact-info-card">
+                            <div class="contact-info-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-detail">
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:kennytran327@csu.fullerton.edu">kennytran327@csu.fullerton.edu</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-info-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-link"></i>
+                                </div>
+                                <div class="contact-detail">
+                                    <h4>Social Links</h4>
+                                    <div class="social-links">
+                                        <a href="https://www.linkedin.com/in/kenny-tran-626826250/" target="_blank" aria-label="LinkedIn">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                        <a href="https://github.com/kennydtran" target="_blank" aria-label="GitHub">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-availability">
+                            <h4>Let's Work Together</h4>
+                            <p>Open to new opportunities in software development and innovative tech projects.</p>
+                            <a href="resume.pdf" download="Kenny_Tran_Resume.pdf" class="download-btn" style="margin-top: 80px;">
+                                Download Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <div class="footer-directory">
+                    <div class="footer-directory-column">
+                        <h3>About</h3>
+                        <ul class="footer-directory-links">
+                            <li><a href="about.html#profile">Profile</a></li>
+                            <li><a href="about.html#education">Education</a></li>
+                            <li><a href="about.html#values">Values</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-directory-column">
+                        <h3>Skills</h3>
+                        <ul class="footer-directory-links">
+                            <li><a href="skills.html#languages">Languages</a></li>
+                            <li><a href="skills.html#frameworks">Frameworks</a></li>
+                            <li><a href="skills.html#tools">Tools</a></li>
+                            <li><a href="skills.html#certifications">Certifications</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-directory-column">
+                        <h3>Projects</h3>
+                        <ul class="footer-directory-links">
+                            <li><a href="projects.html#Web Development">Web Development</a></li>
+                            <li><a href="projects.html#Video Game Development">Video Games</a></li>
+                            <li><a href="projects.html#Artificial Intelligence">AI Projects</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-directory-column">
+                        <h3>Contact</h3>
+                        <ul class="footer-directory-links">
+                            <li><a href="mailto:kennytran327@csu.fullerton.edu">Email Me</a></li>
+                            <li><a href="contact.html">Contact Form</a></li>
+                            <li><a href="resume.pdf" download="Kenny_Tran_Resume.pdf">Download Resume</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-directory-column">
+                        <h3>Connect</h3>
+                        <ul class="footer-directory-links">
+                            <li><a href="https://www.linkedin.com/in/kenny-tran-626826250/" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://github.com/kennydtran" target="_blank">GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="footer-bottom">
+                <p class="footer-copyright">Copyright © 2024 Kenny Tran. All rights reserved.</p>
+                <div class="footer-locale">
+                    <span class="footer-country">United States</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            console.log('Form submitted');
+        });
+        
+        // Add download functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const downloadLinks = document.querySelectorAll('a[download]');
+            downloadLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const path = this.getAttribute('href');
+                    const fileName = this.getAttribute('download') || 'resume.pdf';
+                    console.log(`Downloading ${fileName} from ${path}`);
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
