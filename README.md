@@ -15,10 +15,10 @@ cd portfolio
 
 ## Run the Site
 
-# Option 1:
+### Option 1:
 Double click the index.html file.
 
-# Option 2:
+### Option 2:
 ```bash
 python -m http.server 8000
 ```
